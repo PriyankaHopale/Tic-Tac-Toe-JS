@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="css/tic-tac-toe.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1><strong>Tic - Tac - Toe</strong></h1>
+    <div class="msg-container hide">
+      <p id="msg">winner</p>
+    </div>
+    <button id="new-game">PLAY AGAIN</button>
+    <div>
+      <p>Number of turns</p>
+      <p id="numberTurns">0</p>
+    </div>
+
+    <main>
+      <div class="container">
+        <div class="game">
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+        </div>
+      </div>
+      <button id="reset-btn">RESTART</button>
+    </main>
+    <script src="js/tic-tac-toe.js"></script>
+  </body>
+</html>

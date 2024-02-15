@@ -1,0 +1,73 @@
+body {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  font-size: 8vmin;
+  font-family: "Finger Paint", sans-serif;
+  background-color: #a0d2ebc0;
+  cursor: pointer;
+}
+
+#reset-btn {
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+  border: none;
+}
+
+#new-game {
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+  border: none;
+}
+#msg {
+  font-size: 5vmin;
+  color: white;
+}
+.msg-container {
+  height: 80vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hide {
+  display: none;
+}
+#reset-btn:hover {
+  background-color: #8458b3;
+}
+#new-game:hover {
+  background-color: #8458b3;
+}
